@@ -4074,10 +4074,7 @@
 /* Banner */
 
 	#banner {
-		background-image: url("images/overlay.png"), rgba(231, 35, 42, 0.65)), url("../../images/banner.jpg");
-		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
-		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
-		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
+                background: black;
 		background-position: center center;
 		background-size: auto, cover, cover;
 		background-attachment: fixed, fixed, fixed;
@@ -4091,7 +4088,7 @@
 			position: absolute;
 			bottom: 0;
 			left: 0;
-			background-color: rgba(21, 27, 33, 0.6);
+			background-color: rgba(21, 27, 33, 0.2);
 			color: #ffffff;
 			padding: 6.5em 0 4.5em 0 ;
 			width: 100%;
