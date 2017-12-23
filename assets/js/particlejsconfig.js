@@ -1,9 +1,9 @@
 var config = {
   "particles": {
     "number": {
-      "value": 64,
+      "value": 80,
       "density": {
-        "enable": true,
+        "enable": false,
         "value_area": 800
       }
     },
@@ -17,7 +17,7 @@ var config = {
         "color": "#000000"
       },
       "polygon": {
-        "nb_sides": 3
+        "nb_sides": 5
       },
       "image": {
         "src": "img/github.svg",
@@ -26,7 +26,7 @@ var config = {
       }
     },
     "opacity": {
-      "value": 0.5,
+      "value": 0.7023524862488848,
       "random": false,
       "anim": {
         "enable": false,
@@ -36,7 +36,7 @@ var config = {
       }
     },
     "size": {
-      "value": 0,
+      "value": 1,
       "random": true,
       "anim": {
         "enable": false,
@@ -47,14 +47,14 @@ var config = {
     },
     "line_linked": {
       "enable": true,
-      "distance": 163.9787811457196,
+      "distance": 150,
       "color": "#ffffff",
       "opacity": 0.8,
       "width": 1.5
     },
     "move": {
       "enable": true,
-      "speed": 3,
+      "speed": 6,
       "direction": "none",
       "random": false,
       "straight": false,
@@ -75,14 +75,14 @@ var config = {
         "mode": "repulse"
       },
       "onclick": {
-        "enable": true,
+        "enable": false,
         "mode": "push"
       },
       "resize": true
     },
     "modes": {
       "grab": {
-        "distance": 400,
+        "distance": 100,
         "line_linked": {
           "opacity": 1
         }
@@ -95,7 +95,7 @@ var config = {
         "speed": 3
       },
       "repulse": {
-        "distance": 200,
+        "distance": 1,
         "duration": 0.4
       },
       "push": {
@@ -107,5 +107,6 @@ var config = {
     }
   },
   "retina_detect": true
-}
+};
+
 particlesJS("particles-js", config);
