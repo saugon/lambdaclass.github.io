@@ -49,8 +49,8 @@ var config = {
       "enable": true,
       "distance": 163.9787811457196,
       "color": "#ffffff",
-      "opacity": 0.4,
-      "width": 1
+      "opacity": 0.8,
+      "width": 1.5
     },
     "move": {
       "enable": true,
