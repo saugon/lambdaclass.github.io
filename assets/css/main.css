@@ -4693,6 +4693,7 @@
   background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('/images/logo.png');
   background-size: contain;
   background-repeat: no-repeat;
+  background-attachment: unset;
 }
   #banner .content {
       background-color: transparent;
