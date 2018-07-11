@@ -3842,35 +3842,11 @@
 			margin-left: 1.5em;
 		}
 
-			#header h1:before {
-				-moz-osx-font-smoothing: grayscale;
-				-webkit-font-smoothing: antialiased;
-				font-family: FontAwesome;
-				font-style: normal;
-				font-weight: normal;
-				text-transform: none !important;
-			}
-
 			#header h1 a {
 				display: inline-block;
 				font-size: 0.9em;
 				height: inherit;
 				line-height: inherit;
-			}
-
-			#header h1:before {
-				background: #ffffff;
-				border-radius: 100%;
-				color: #5f9dd2;
-				content: '\f1b3';
-				display: inline-block;
-				font-size: 0.9em;
-				height: 2em;
-				line-height: 2em;
-				margin-left: -0.5em;
-				margin-right: 0.5em;
-				text-align: center;
-				width: 2em;
 			}
 
 		#header nav {
@@ -4712,3 +4688,12 @@
 				}
 
 		}
+
+#banner{
+  background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('/images/logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+  #banner .content {
+      background-color: transparent;
+  }
