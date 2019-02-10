@@ -1,0 +1,356 @@
+@import './assets/fonts/stylesheet.css';
+body{
+  background-color: #f0ebfa;
+  font-family: "Circular Std", serif;
+}
+#master-head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav ul li a{
+  margin-left: 40px;
+  color: #ffffff;
+  font-family: "Circular Std", serif;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.04px;
+  position: relative;
+  transition: all;
+}
+nav ul li a:hover{
+  color: #fff;
+  text-decoration: none;
+}
+ nav ul li a:after{
+  content: '';
+  height: 4px;
+  width: 0%;
+  background: #ef2674;
+  display: block;
+  position: absolute;
+  left: 0;
+
+}
+nav ul li a:hover:after{
+  width: 50%;
+  transition: width .3s;
+
+}
+.hero{
+  background-image: url('./assets/bg.png');
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-size: 100% 100%;
+  padding-bottom: 200px;
+}
+.site-title a{
+  color: #ffffff;
+  font-family: "Circular Std Bold", serif;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: -0.06px;
+}
+.site-title a:hover{
+  text-decoration: none;
+}
+#hero-area{
+  min-height: calc(100vh - 250px);
+  display: flex;
+  align-items: center;
+}
+#hero-area h1{
+  color: #ffffff;
+  font-family: "Circular Std", serif;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 74px;
+  letter-spacing: -0.15px;
+  margin-top: 60px;
+}
+#hero-area p{
+  color: #ffffff;
+  font-family: "Circular Std", serif;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: -0.05px;
+}
+button{
+  border: none;
+  border-radius: 3px;
+  background-color: #ef2674;
+  color:#fff;
+  transition: .3s all;
+}
+button:hover, button:focus{
+  outline: none;
+  background-color: #C5165A;
+  box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
+    transform: translate(0px, -3px) scale(1.01)
+}
+#contact--btn{
+  width: 200px;
+  height: 70px;
+}
+#submit{
+  width: 230px;
+  height: 70px;
+}
+.section-title{
+  color: #222222;
+  font-family: "Circular Std", serif;
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: -0.04px;
+}
+
+
+.about-single {
+  align-items: center;
+  margin-bottom: 3.5rem;
+  margin-top: 3.5rem;
+}
+.about-single h1{
+  color: #222222;
+  font-family: "Circular Std Bold", serif;
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: -0.09px;
+}
+.about-single p{
+  color: #555555;
+  font-family: "Circular Std", serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: -0.09px;
+}
+.about-single img{
+  max-height: 450px;
+  max-width: 580px;
+  width: 100%;
+}
+#work-with-us h3{
+  color: #222222;
+  font-family: "Circular Std Bold";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.05px;
+}
+#work-with-us img{
+ height: 70px;
+ width: 70px;
+}
+
+#work-with-us p{
+  color: #555555;
+  font-family: "Circular Std";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: -0.09px;
+}
+
+
+#contact{
+  background-image: url('./assets/contact-bg.png');
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 300px;
+  padding-bottom: 100px;
+
+}
+#contact .section-title{
+  color: #fff;
+}
+.contact-box{
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+#contact-form{
+  display: flex;
+  flex-direction: column;
+}
+input , textarea{
+  border-radius: 3px;
+  border: 1px solid #f2f2f2;
+  margin-bottom: 25px;
+  padding: 1rem;
+  color: #aaa;
+  font-size: 18px;
+  font-weight: 300;
+}
+.submit{
+  border-radius: 3px;
+  background-color: #ef2674;
+  width: 230px;
+height: 70px;
+}
+.address{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.address li{
+  margin-bottom: 2rem;
+}
+.address h3{
+  color: #222222;
+  font-family: "Circular Std";
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 38px;
+  letter-spacing: -0.06px;
+}
+.address p, .address a{
+  color: #555555;
+  font-family: "Circular Std";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 27px;
+  letter-spacing: -0.06px;
+}
+.border-right{
+  border: 1px solid rgba(151, 151, 151, 0.12) !important;
+}
+.glow-line{
+  opacity: 0;
+}
+ /* Small devices (landscape phones, 576px and up) */
+ @media (max-width: 767px) {
+  nav ul li a{
+    font-size: 12px;
+  }
+  .site-title a{
+    font-size: 16px;
+  }
+  #hero-area h1{
+    font-size: 28px;
+    line-height: 40px;
+  }
+  #hero-area p{
+    font-size: 13px;
+
+  }
+  #contact--btn{
+    width: 105px;
+    height: 40px;
+
+  }
+  .about-single h1{
+    font-size: 18px;
+  }
+  .about-single p{
+    font-size: 12px;
+  }
+  .section-title{
+    font-size: 24px;
+  }
+  #work-with-us h3{
+    font-size: 18px;
+  }
+  #work-with-us p{
+    font-size: 12px;
+  }
+  #submit {
+    width: 160px;
+    height: 39px;
+    margin: 0 auto;
+    display: inherit;
+  }
+  .contact-box{
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+  .p-5{
+    padding: 1.5rem !important;
+  }
+  #contact{
+    background-size: 135% 100%;
+  }
+  .hero{
+    background-size: 120% 100%;
+  }
+  .about-single.alt{
+    flex-direction: column-reverse;
+  }
+}
+
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  nav ul li a{
+    font-size: 18px;
+  }
+  .site-title a{
+    font-size: 25px;
+  }
+  #hero-area h1{
+    font-size: 50px;
+    line-height: 65px;
+    letter-spacing: -0.12px;
+  }
+  #hero-area p{
+    font-size: 20px;
+
+  }
+  #contact--btn{
+    width: 200px;
+    height: 70px;
+
+  }
+  .about-single h1{
+    font-size: 30px;
+  }
+  .about-single p{
+   font-size: 16px;
+  }
+  .section-title{
+    font-size: 45px;
+  }
+  #work-with-us h3{
+    font-size: 22px;
+  }
+  #work-with-us p{
+   font-size: 16px;
+  }
+  #submit {
+    width: 230px;
+    height: 70px;
+  }
+  .contact-box{
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+  .p-5{
+    padding: 1.5rem !important;
+  }
+  #contact{
+    background-size: 130% 100%;
+  }
+  .hero{
+    background-size: 120% 100%;
+    padding-bottom: 280px;
+  }
+
+ }
+.my-10{
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
