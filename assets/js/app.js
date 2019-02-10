@@ -192,7 +192,7 @@ contactBtn.addEventListener('click', function() {
       var mapElement = document.getElementById('lambda-map');
       var map = new google.maps.Map(mapElement, mapOptions);
       var marker = new google.maps.Marker({
-          position: new google.maps.LatLng(-34.6096984,-58.3853352),
+          position: new google.maps.LatLng(-34.60969396532194,-58.38533518451944),
           map: map,
           title: 'Lambda SAS'
       });
