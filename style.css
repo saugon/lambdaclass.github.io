@@ -235,14 +235,18 @@ height: 70px;
  /* Small devices (landscape phones, 576px and up) */
  @media (max-width: 767px) {
   nav ul li a{
-    font-size: 12px;
+    font-size: .9rem;
+    margin-left: 1.2rem;
   }
   .site-title a{
-    font-size: 16px;
+    font-size: 1.3rem;
+    position: relative;
+    top: -.1rem;
   }
   #hero-area h1{
     font-size: 28px;
-    line-height: 40px;
+    line-height: 1.2;
+    margin-top: 3rem;
   }
   #hero-area p{
     font-size: 13px;
@@ -255,9 +259,11 @@ height: 70px;
   }
   .about-single h1{
     font-size: 18px;
+    margin-top: 1rem;
   }
   .about-single p{
-    font-size: 12px;
+    font-size: 1rem;
+    line-height: 1.7;
   }
   .section-title{
     font-size: 24px;
@@ -266,7 +272,8 @@ height: 70px;
     font-size: 18px;
   }
   #work-with-us p{
-    font-size: 12px;
+    font-size: 1rem;
+    line-height: 1.7;
   }
   #submit {
     width: 160px;
@@ -290,8 +297,26 @@ height: 70px;
   .about-single.alt{
     flex-direction: column-reverse;
   }
+  .my-10.section-title{
+    margin-bottom: 3rem;
+  }
+  #landing-image{
+    margin-top: 2rem;
+  }
 }
 
+/* Very small devices (eg: iphone 5) */
+@media (max-width: 356px) {
+  .site-title a{
+    font-size: 1.1rem;
+  }
+  nav ul li a {
+    margin-left: 1rem;
+  }
+  .address p, .address a {
+    font-size: 1rem;
+  }
+}
 
  /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
@@ -313,7 +338,7 @@ height: 70px;
   #contact--btn{
     width: 200px;
     height: 70px;
-
+    margin-bottom: 1.6rem;
   }
   .about-single h1{
     font-size: 30px;
