@@ -1,20 +1,24 @@
-@import './assets/fonts/stylesheet.css';
-body{
+@import "./assets/fonts/stylesheet.css";
+
+body {
   background-color: #f0ebfa;
   font-family: "Circular Std", serif;
 }
-#master-head{
+
+#master-head {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   display: flex;
 }
-nav ul li a{
+
+nav ul li a {
   margin-left: 40px;
   color: #ffffff;
   font-family: "Circular Std", serif;
@@ -24,85 +28,98 @@ nav ul li a{
   position: relative;
   transition: all;
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
   color: #fff;
   text-decoration: none;
 }
- nav ul li a:after{
-  content: '';
+
+nav ul li a:after {
+  content: "";
   height: 4px;
   width: 0%;
   background: #ef2674;
   display: block;
   position: absolute;
   left: 0;
-
 }
-nav ul li a:hover:after{
+
+nav ul li a:hover:after {
   width: 50%;
-  transition: width .3s;
-
+  transition: width 0.3s;
 }
-.hero{
-  background-image: url('./assets/bg.png');
+
+.hero {
+  background-image: url("./assets/bg.png");
   background-repeat: no-repeat;
   min-height: 100vh;
   background-size: 100% 100%;
   padding-bottom: 200px;
 }
-.site-title a{
+
+.site-title a {
   color: #ffffff;
   font-family: "Circular Std Bold", serif;
   font-size: 25px;
   font-weight: 700;
   letter-spacing: -0.06px;
 }
-.site-title a:hover{
+
+.site-title a:hover {
   text-decoration: none;
 }
-#hero-area{
+
+#hero-area {
   min-height: calc(100vh - 250px);
   display: flex;
   align-items: center;
 }
-#hero-area h1{
+
+#hero-area h1 {
   color: #ffffff;
   font-family: "Circular Std", serif;
-  font-size: 60px;
+  font-size: 48px;
   font-weight: 500;
   line-height: 74px;
   letter-spacing: -0.15px;
   margin-top: 60px;
 }
-#hero-area p{
+
+#hero-area p {
   color: #ffffff;
   font-family: "Circular Std", serif;
   font-size: 20px;
   font-weight: 300;
   letter-spacing: -0.05px;
 }
-button{
+
+button {
   border: none;
   border-radius: 3px;
   background-color: #ef2674;
-  color:#fff;
-  transition: .3s all;
+  color: #fff;
+  transition: 0.3s all;
 }
-button:hover, button:focus{
+
+button:hover,
+button:focus {
   outline: none;
-  background-color: #C5165A;
-  box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
-    transform: translate(0px, -3px) scale(1.01)
+  background-color: #c5165a;
+  box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
+  transform: translate(0px, -3px) scale(1.01);
 }
-#contact--btn{
+
+#contact--btn {
   width: 200px;
   height: 70px;
 }
-#submit{
+
+#submit {
   width: 230px;
   height: 70px;
 }
-.section-title{
+
+.section-title {
   color: #222222;
   font-family: "Circular Std", serif;
   font-size: 50px;
@@ -110,20 +127,21 @@ button:hover, button:focus{
   letter-spacing: -0.04px;
 }
 
-
 .about-single {
   align-items: center;
   margin-bottom: 3.5rem;
   margin-top: 3.5rem;
 }
-.about-single h1{
+
+.about-single h1 {
   color: #222222;
   font-family: "Circular Std Bold", serif;
   font-size: 35px;
   font-weight: 700;
   letter-spacing: -0.09px;
 }
-.about-single p{
+
+.about-single p {
   color: #555555;
   font-family: "Circular Std", serif;
   font-size: 18px;
@@ -131,12 +149,14 @@ button:hover, button:focus{
   line-height: 32px;
   letter-spacing: -0.09px;
 }
-.about-single img{
+
+.about-single img {
   max-height: 450px;
   max-width: 580px;
   width: 100%;
 }
-#work-with-us h3{
+
+#work-with-us h3 {
   color: #222222;
   font-family: "Circular Std Bold";
   font-size: 24px;
@@ -144,12 +164,13 @@ button:hover, button:focus{
   line-height: 32px;
   letter-spacing: -0.05px;
 }
-#work-with-us img{
- height: 70px;
- width: 70px;
+
+#work-with-us img {
+  height: 70px;
+  width: 70px;
 }
 
-#work-with-us p{
+#work-with-us p {
   color: #555555;
   font-family: "Circular Std";
   font-size: 18px;
@@ -158,9 +179,8 @@ button:hover, button:focus{
   letter-spacing: -0.09px;
 }
 
-
-#contact{
-  background-image: url('./assets/contact-bg.png');
+#contact {
+  background-image: url("./assets/contact-bg.png");
   background-repeat: no-repeat;
   min-height: 100vh;
   background-size: 100% 100%;
@@ -169,21 +189,25 @@ button:hover, button:focus{
   justify-content: center;
   padding-top: 300px;
   padding-bottom: 100px;
-
 }
-#contact .section-title{
+
+#contact .section-title {
   color: #fff;
 }
-.contact-box{
+
+.contact-box {
   box-shadow: 0 20px 45px rgba(0, 0, 0, 0.05);
   border-radius: 8px;
   background-color: #ffffff;
 }
-#contact-form{
+
+#contact-form {
   display: flex;
   flex-direction: column;
 }
-input , textarea{
+
+input,
+textarea {
   border-radius: 3px;
   border: 1px solid #f2f2f2;
   margin-bottom: 25px;
@@ -192,13 +216,15 @@ input , textarea{
   font-size: 18px;
   font-weight: 300;
 }
-.submit{
+
+.submit {
   border-radius: 3px;
   background-color: #ef2674;
   width: 230px;
-height: 70px;
+  height: 70px;
 }
-.address{
+
+.address {
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -207,10 +233,12 @@ height: 70px;
   flex-direction: column;
   justify-content: center;
 }
-.address li{
+
+.address li {
   margin-bottom: 2rem;
 }
-.address h3{
+
+.address h3 {
   color: #222222;
   font-family: "Circular Std";
   font-size: 24px;
@@ -218,7 +246,9 @@ height: 70px;
   line-height: 38px;
   letter-spacing: -0.06px;
 }
-.address p, .address a{
+
+.address p,
+.address a {
   color: #555555;
   font-family: "Circular Std";
   font-size: 18px;
@@ -226,156 +256,270 @@ height: 70px;
   line-height: 27px;
   letter-spacing: -0.06px;
 }
-.border-right{
+
+.border-right {
   border: 1px solid rgba(151, 151, 151, 0.12) !important;
 }
-.glow-line{
+
+.glow-line {
   opacity: 0;
 }
- /* Small devices (landscape phones, 576px and up) */
- @media (max-width: 767px) {
-  nav ul li a{
-    font-size: .9rem;
-    margin-left: 1.2rem;
+
+#menu-trigger,
+#close-menu {
+  display: none;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 767px) {
+  #menu-trigger {
+    display: block;
   }
-  .site-title a{
+
+  nav {
+    opacity: 0;
+    pointer-events: none;
+    display: none;
+  }
+
+  html.menu-opened {
+    overflow: hidden;
+  }
+
+  #close-menu {
+    position: absolute;
+    top: 2rem;
+    right: 0.95rem;
+  }
+
+  html.menu-opened nav #close-menu {
+    display: block;
+  }
+
+  html.menu-opened header nav {
+    opacity: 0;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: calc(var(--vh, 1vh) * 100);
+    pointer-events: all;
+    background: #181248;
+    z-index: 10;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+
+  html.menu-animated header nav {
+    opacity: 1;
+  }
+
+  html.menu-opened header nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 6rem 2rem;
+  }
+
+  html.menu-opened header nav ul li {
+    margin-bottom: 2rem;
+  }
+
+  html header nav a {
+    display: block;
+    opacity: 0;
+    transform: translateY(-1rem);
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+
+  html.menu-animated header nav a {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  nav ul li a {
+    font-size: 2rem;
+    margin-left: 0;
+    line-height: 1.1;
+  }
+
+  .site-title a {
     font-size: 1.3rem;
     position: relative;
-    top: -.1rem;
+    top: -0.1rem;
   }
-  #hero-area h1{
+
+  #hero-area h1 {
     font-size: 28px;
     line-height: 1.2;
     margin-top: 3rem;
   }
-  #hero-area p{
-    font-size: 13px;
 
+  #hero-area p {
+    font-size: 13px;
   }
-  #contact--btn{
+
+  #contact--btn {
     width: 105px;
     height: 40px;
-
   }
-  .about-single h1{
+
+  .about-single h1 {
     font-size: 18px;
     margin-top: 1rem;
   }
-  .about-single p{
+
+  .about-single p {
     font-size: 1rem;
     line-height: 1.7;
   }
-  .section-title{
+
+  .section-title {
     font-size: 24px;
   }
-  #work-with-us h3{
+
+  #work-with-us h3 {
     font-size: 18px;
   }
-  #work-with-us p{
+
+  #work-with-us p {
     font-size: 1rem;
     line-height: 1.7;
   }
+
   #submit {
     width: 160px;
     height: 39px;
     margin: 0 auto;
     display: inherit;
   }
-  .contact-box{
+
+  .contact-box {
     margin-left: 1px;
     margin-right: 1px;
   }
-  .p-5{
+
+  .p-5 {
     padding: 1.5rem !important;
   }
-  #contact{
+
+  #contact {
     background-size: 135% 100%;
   }
-  .hero{
+
+  .hero {
     background-size: 120% 100%;
   }
-  .about-single.alt{
+
+  .about-single.alt {
     flex-direction: column-reverse;
   }
-  .my-10.section-title{
+
+  .my-10.section-title {
     margin-bottom: 3rem;
   }
-  #landing-image{
+
+  #landing-image {
     margin-top: 2rem;
   }
 }
 
 /* Very small devices (eg: iphone 5) */
 @media (max-width: 356px) {
-  .site-title a{
+  .site-title a {
     font-size: 1.1rem;
   }
+
   nav ul li a {
     margin-left: 1rem;
   }
-  .address p, .address a {
+
+  .address p,
+  .address a {
     font-size: 1rem;
   }
 }
 
- /* Medium devices (tablets, 768px and up) */
+/* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  nav ul li a{
+  nav ul li a {
     font-size: 18px;
   }
-  .site-title a{
+
+  .site-title a {
     font-size: 25px;
   }
-  #hero-area h1{
+
+  #hero-area h1 {
     font-size: 50px;
     line-height: 65px;
     letter-spacing: -0.12px;
   }
-  #hero-area p{
-    font-size: 20px;
 
+  #hero-area p {
+    font-size: 20px;
   }
-  #contact--btn{
+
+  #contact--btn {
     width: 200px;
     height: 70px;
     margin-bottom: 1.6rem;
   }
-  .about-single h1{
+
+  .about-single h1 {
     font-size: 30px;
   }
-  .about-single p{
-   font-size: 16px;
+
+  .about-single p {
+    font-size: 16px;
   }
-  .section-title{
+
+  .section-title {
     font-size: 45px;
   }
-  #work-with-us h3{
+
+  #work-with-us h3 {
     font-size: 22px;
   }
-  #work-with-us p{
-   font-size: 16px;
+
+  #work-with-us p {
+    font-size: 16px;
   }
+
   #submit {
     width: 230px;
     height: 70px;
   }
-  .contact-box{
+
+  .contact-box {
     margin-left: 1px;
     margin-right: 1px;
   }
-  .p-5{
+
+  .p-5 {
     padding: 1.5rem !important;
   }
-  #contact{
+
+  #contact {
     background-size: 130% 100%;
   }
-  .hero{
+
+  .hero {
     background-size: 120% 100%;
     padding-bottom: 280px;
   }
+}
 
- }
-.my-10{
+.my-10 {
   margin-top: 6rem;
   margin-bottom: 6rem;
 }
